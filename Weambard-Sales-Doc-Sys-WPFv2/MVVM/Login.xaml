@@ -1,0 +1,33 @@
+﻿<Window x:Class="Weambard_Sales_Doc_Sys_WPFv2.MVVM.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weambard_Sales_Doc_Sys_WPFv2.MVVM"
+        mc:Ignorable="d"
+        Title="Login" 
+        FontSize="14" 
+        Height="350" Width="300" 
+        Background="Transparent"
+        WindowStyle="None" 
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True">
+    <Border Background="#272537"
+            CornerRadius="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Rectangle/>
+            <TextBlock Text="Status" Name="txtStatus"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   Foreground="White"
+                   FontSize="16" Margin="20 0 0 0"/>
+        </Grid>
+    </Border>
+</Window>
